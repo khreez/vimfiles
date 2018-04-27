@@ -9,24 +9,24 @@ call vundle#begin()
 "let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'jlanzarotta/bufexplorer'
-Plugin 'godlygeek/csapprox'
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-endwise'
-Plugin 'henrik/vim-indexed-search'
-Plugin 'scrooloose/nerdtree'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'scrooloose/nerdcommenter'
+"Plugin 'jlanzarotta/bufexplorer'
+"Plugin 'godlygeek/csapprox'
+"Plugin 'kien/ctrlp.vim'
+"Plugin 'tpope/vim-endwise'
+"Plugin 'henrik/vim-indexed-search'
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'Xuyuanp/nerdtree-git-plugin'
+"Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-surround'
+"Plugin 'tpope/vim-rails'
+"Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'mbbill/undotree'
-Plugin 'vim-scripts/YankRing.vim'
-Plugin 'majutsushi/tagbar'
-Plugin 'kien/rainbow_parentheses.vim'
+"Plugin 'SirVer/ultisnips'
+"Plugin 'honza/vim-snippets'
+"Plugin 'mbbill/undotree'
+"Plugin 'vim-scripts/YankRing.vim'
+"Plugin 'majutsushi/tagbar'
+"Plugin 'kien/rainbow_parentheses.vim'
 
 "All of your Plugins must be added before the following line
 call vundle#end()
@@ -375,4 +375,3 @@ function s:ActivateRainbowParens() abort
     RainbowParenthesesLoadSquare
     RainbowParenthesesLoadBraces
 endfunction
-
